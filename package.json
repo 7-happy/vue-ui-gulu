@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/7-happy/vue-ui-gulu/issues"
   },
-  "homepage": "https://github.com/7-happy/vue-ui-gulu#readme"
+  "homepage": "https://github.com/7-happy/vue-ui-gulu#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
