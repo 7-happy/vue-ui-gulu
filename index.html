@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue-ui</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            --button-height:32px;
+            --font-size:14px;
+            --button-bg:white;
+            --button-active-bg:#eee;
+            --border-radius:4px;
+            --color:#333;
+            --border-color:#999;
+            --border-color-hover:#666;
+        }
+        #app {
+            margin:20px;
+        }
+        body {
+            font-size:var(--font-size);
+        }
+
+        .icon {
+            width: 1em;
+            height: 1em;
+            color:#333
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <g-button icon="settings">
+            按钮一
+            <!-- <template v-slot:button_click>按钮一</template> -->
+        </g-button>
+    </div>
+
+    <script src="./src/app.js"></script>
+    <script src="//at.alicdn.com/t/font_2187840_wg72zhi95m.js"></script>
+</body>
+</html>
