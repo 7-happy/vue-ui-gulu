@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/7-happy/vue-ui-gulu#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "node-sass": "^5.0.0",
     "vue": "^2.5.16",
     "vue-hot-reload-api": "^2.3.0"

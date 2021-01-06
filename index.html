@@ -37,13 +37,32 @@
 </head>
 <body>
     <div id="app">
-        <g-button icon="settings">
+        <g-icon name="download"></g-icon>
+
+        <g-button icon="settings" :loading="loading1" @click1="loading1 = !loading1">
             按钮一
             <!-- <template v-slot:button_click>按钮一</template> -->
         </g-button>
-    </div>
 
+        <g-button icon="settings" :loading="true">
+            按钮二
+        </g-button>
+
+        <g-button icon="settings" icon-position="right" :loading="true">
+            按钮三
+        </g-button>
+
+        <g-button-group>
+            <g-button icon="arrow-left">上一页</g-button>
+            <g-button icon="arrow-right" icon-position="right">下一页</g-button>
+            <!-- <div>ddd</div> -->
+        </g-button-group>
+
+        </div>
+
+
+        <div id="test"></div>
     <script src="./src/app.js"></script>
-    <script src="//at.alicdn.com/t/font_2187840_wg72zhi95m.js"></script>
+    <script src="//at.alicdn.com/t/font_2187840_u724p9ttpbb.js"></script>
 </body>
 </html>
